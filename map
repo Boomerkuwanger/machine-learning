@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Mapping data from data.txt to lol.txt"
+> lol.txt
+python mapdata.py > lol.txt
